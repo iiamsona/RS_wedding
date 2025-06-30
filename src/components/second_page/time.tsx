@@ -37,7 +37,14 @@ function Time() {
             <p className="text-xl text-center">Տոնական խնջույք</p>
           </div>
         </FadeInSection>
-        <img src={MainImg} alt="img" className="w-1/2 mt-5" />
+         <div className="relative w-full h-full flex justify-center items-center flex-col mt-10">
+                    <div className="absolute inset-0 bg-[#dfdddb] rounded-xl -rotate-8 z-0 w-3/5 grid justify-self-center items-self-center"></div>
+                    <img
+                      src={MainImg}
+                      alt="main"
+                      className="relative w-3/5 rounded-xl z-10"
+                    />
+                  </div>
         <h1 className="mt-10 text-2xl text-center">
           Խնդրում ենք հաստատել Ձեր ներկայությունը մինչև Հուլիսի 20-ը
         </h1>

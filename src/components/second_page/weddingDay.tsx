@@ -8,7 +8,7 @@ function WeddingDay() {
       <WeddingDayImg className="w-1/4 h-auto my-10" />
       <div className="relative h-auto w-1/4 min-w-[225px]">
         <FadeInSection>
-          <img src={MainImg} alt="Main" className="w-full h-auto" />
+          <img src={MainImg} alt="Main" className="w-full h-auto rounded-xl" />
           <h1 className=" text-[#181713] absolute top-[0.5%] right-[8%] font-semibold z-10 text-gray text-[120%] w-2">
             08 08 25
           </h1>
