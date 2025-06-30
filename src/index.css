@@ -13,7 +13,20 @@
     transform: translateY(0);
   }
   
+  @media (max-width: 766px) {
+    .heart-img {
+      left: 111.5px !important;
+      top: 110px !important;
+      width: 22px;
+    }
+  }
   
+  @media (min-width: 767px) {
+    .heart-img {
+      left: 230px !important;
+      top: 91px !important;
+    }
+  }
 
 body {
     overflow-x: hidden;
