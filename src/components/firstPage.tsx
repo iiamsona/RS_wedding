@@ -12,14 +12,14 @@ function FirstPage({ onContinue }: Props) {
       <img
         src={MainImg}
         alt="Main"
-        className="absolute w-auto min-w-[530px] h-full min-h-[780px] object-contain z-10"
+        className="absolute w-full h-full object-cover md:w-auto md:min-w-[530px] md:min-h-[780px] z-10"
       />
       <div className="relative z-20 text-center flex justify-between items-center flex-col h-full">
-        <h1 className="text-3xl font-semibold uppercase text-gray mb-10 mt-10">
+        <h1 className="text-xl md:text-3xl font-semibold uppercase text-gray mb-10 mt-10">
           Rafayel & Sinareta
         </h1>
-        <RS className="w-100 h-100 block mx-auto fill-gray opacity-70 mt-40" />
-        <button onClick={onContinue} className="px-12 py-5 mb-40 border border-gray text-gray font-semibold bg-transparent cursor-pointer text-3xl">
+        <RS className="w-40 h-40 md:w-60 md:h-60 block mx-auto fill-gray opacity-70 mt-20 md:mt-40" />
+        <button onClick={onContinue} className="px-6 py-3 md:px-12 md:py-5 mb-20 md:mb-40 border border-gray text-gray font-semibold bg-transparent cursor-pointer text-xl md:text-3xl">
           Բացել
         </button>
       </div>

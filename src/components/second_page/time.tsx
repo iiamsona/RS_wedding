@@ -45,9 +45,6 @@ function Time() {
                       className="relative w-3/5 rounded-xl z-10"
                     />
                   </div>
-        <h1 className="mt-10 text-2xl text-center">
-          Խնդրում ենք հաստատել Ձեր ներկայությունը մինչև Հուլիսի 20-ը
-        </h1>
       </div>
     </div>
   );
