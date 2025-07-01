@@ -17,24 +17,23 @@ function Location() {
               src={MainImg}
               alt="main"
               className="relative w-8/10 lg:w-1/2 xl:w-2/3 rounded-xl z-10"
-
             />
           </div>
           <LocationFU className="w-1/2 h-auto mt-10" />
         </FadeInSection>
       </div>
       <FadeInSection>
-        <div className="flex flex-col justify-center items-center w-1/4 m-10">
+        <div className="flex flex-col justify-center items-center w-1/3 m-10">
           <LocationImg className="w-2/8 lg:w-1/8 xl:w-1/8 h-auto mb-2" />
           <h1 className="text-xl text-center">
-            Պսակադրությունը կանցկացվի Սուրբ Խաչ եկեղեցում (Արաբկիր) Հասցե՝ ք․
-            Երևան, Կոմիտասի պող. 64
+            Պսակադրությունը կանցկացվի Սուրբ Խաչ եկեղեցում (Արաբկիր)
           </h1>
+          <h1 className="text-xl text-center font-semibold">Ք․ Երևան, Կոմիտասի պող. 64</h1>
           <Church className="w-8/10 h-auto mt-2" />
           <button
             onClick={() =>
               window.open(
-                "https://maps.app.goo.gl/zStMMHEZGC4HBTBA8",
+                "https://yandex.com/maps/-/CHgxE8~9",
                 "_blank",
                 "noopener,noreferrer"
               )
@@ -46,17 +45,19 @@ function Location() {
         </div>
       </FadeInSection>
       <FadeInSection>
-        <div className="flex flex-col justify-center items-center w-1/4 m-10">
+        <div className="flex flex-col justify-center items-center w-1/3 m-10">
           <Glasses className="w-2/5 lg:w-1/5 xl:w-1/5 h-auto mb-2" />
           <h1 className="text-xl text-center">
-            Տոնական խնջույքը կանցկացվի «Ադանա կոմպլեքս» ռեստորանում Երևան-Երասխ
-            մայրուղի 10/9
+            Տոնական խնջույքը կանցկացվի «Ադանա կոմպլեքս» ռեստորանում
+          </h1>
+          <h1 className="text-xl text-center font-semibold">
+            Երևան-Երասխ մայրուղի 10/9
           </h1>
           <Restaurant className="w-9/10 h-auto mt-2" />
           <button
             onClick={() =>
               window.open(
-                "https://maps.app.goo.gl/wEFJTnn8h5RpQdNRA",
+                "https://yandex.com/maps/-/CDxwfRN0",
                 "_blank",
                 "noopener,noreferrer"
               )
