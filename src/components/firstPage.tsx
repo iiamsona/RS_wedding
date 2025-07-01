@@ -21,7 +21,7 @@ function FirstPage({ onContinue }: Props) {
         <RS className="w-40 h-40 md:w-45 md:h-45 fill-gray opacity-70" />
         <button
             onClick={onContinue}
-            className="fist-button px-8 py-3 md:px-12 md:py-5 mb-32 border border-gray text-gray font-semibold bg-transparent cursor-pointer text-xl md:text-3xl"
+            className="fist-button px-8 py-3 md:px-12 md:py-5 mb-24 border border-gray text-gray font-semibold bg-transparent cursor-pointer text-xl md:text-3xl"
           >
             Բացել
           </button>
