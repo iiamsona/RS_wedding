@@ -48,7 +48,7 @@ function Location() {
         <div className="flex flex-col justify-center items-center w-1/4 m-10">
           <Glasses className="w-1/5 h-auto mb-2" />
           <h1 className="text-xl text-center">
-            Տոնական խնջույքը կանցկացվի «Ադանա» ռեստորանում ք․ Երևան, Երասխ
+            Տոնական խնջույքը կանցկացվի «Ադանա կոմպլեքս» ռեստորանում ք․ Երևան, Երասխ
             մայրուղի 10/9
           </h1>
           <Restaurant className="w-9/10 h-auto mt-2" />

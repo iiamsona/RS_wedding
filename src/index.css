@@ -28,6 +28,12 @@
     }
   }
 
+  @media (max-width: 380px) {
+    .fist-button{
+      margin-bottom: 3.75rem;
+    }
+  }
+
 body {
     overflow-x: hidden;
     font-family: 'Merriweather', serif;

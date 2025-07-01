@@ -26,14 +26,14 @@ function Time() {
         <FadeInSection>
           <div className="w-full h-full flex flex-col justify-center items-center">
             <div className="w-0.5 h-20 bg-black my-5"></div>
-            <h1 className="text-6xl text-center">15:00</h1>
+            <h1 className="text-6xl text-center">15:30</h1>
             <p className="text-xl text-center">Պսակադրության արարողություն</p>
           </div>
         </FadeInSection>
         <FadeInSection>
           <div className="w-full h-full flex flex-col justify-center items-center">
             <div className="w-0.5 h-20 bg-black my-5"></div>
-            <h1 className="text-6xl text-center">17:00</h1>
+            <h1 className="text-6xl text-center">17:30</h1>
             <p className="text-xl text-center">Տոնական խնջույք</p>
           </div>
         </FadeInSection>
