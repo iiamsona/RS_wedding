@@ -25,12 +25,12 @@ function Location() {
       </div>
       <FadeInSection>
         <div className="flex flex-col justify-center items-center w-1/4 m-10">
-          <LocationImg className="w-1/8 h-auto mb-2" />
+          <LocationImg className="w-2/8 lg:w-1/8 xl:w-1/8 h-auto mb-2" />
           <h1 className="text-xl text-center">
             Պսակադրությունը կանցկացվի Սուրբ Խաչ եկեղեցում (Արաբկիր) Հասցե՝ ք․
             Երևան, Կոմիտասի պող. 64
           </h1>
-          <Church className="w-3/4 h-auto mt-2" />
+          <Church className="w-8/10 h-auto mt-2" />
           <button
             onClick={() =>
               window.open(
@@ -47,7 +47,7 @@ function Location() {
       </FadeInSection>
       <FadeInSection>
         <div className="flex flex-col justify-center items-center w-1/4 m-10">
-          <Glasses className="w-1/5 h-auto mb-2" />
+          <Glasses className="w-2/5 lg:w-1/5 xl:w-1/5 h-auto mb-2" />
           <h1 className="text-xl text-center">
             Տոնական խնջույքը կանցկացվի «Ադանա կոմպլեքս» ռեստորանում Երևան-Երասխ
             մայրուղի 10/9
