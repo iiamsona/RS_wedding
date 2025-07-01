@@ -11,7 +11,7 @@ function WithLove() {
         հարմարավետ կոշիկներ՝ պարելու համար։
       </h1>
       <WLove />
-      <RS className="fill-white w-50 h-auto" />
+      <RS className="fill-white w-50 h-auto mb-10" />
     </div>
   );
 }

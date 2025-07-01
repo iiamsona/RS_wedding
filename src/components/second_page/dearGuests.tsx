@@ -19,7 +19,7 @@ function DearGuests() {
       </div>
       <div className="relative z-10">
         <img src={Heart} alt="heart" className="absolute z-0 animate-pulse w-10 heart-img " />
-        <Cal className="relative z-10 w-48 md:w-100" />
+        <Cal className="relative z-10 w-88 md:w-100" />
       </div>
     </div>
   );
